@@ -1,0 +1,279 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+	<meta charset="utf-8" />
+	
+	<title>THIRD STAGE | 크리에이티브 디자인 라이선시</title>
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./css/store.css" />
+	<link rel="stylesheet" href="./css/common.css" />
+	
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+	
+	<script src="./js/filter.js"></script>
+	<script src="./js/common.js"></script>
+	
+ </head>
+ <body>
+		<!--사이드바 왼쪽-->
+
+	<div id="side_bar_left_wrap">
+		<div id="side_bar_left">
+			<h1><a href="index.html">Logo</a></h1>
+		</div>
+	</div>
+		<!--메인-->
+	<div id="main_wrap">
+			<!--헤더 웹일때-->
+		<div id="header_web">
+			<nav>
+				<ul>
+					<li><a href="product.html">PRODUCT</a></li>
+					<li><a href="news.html">NEWS</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="store.html">STORE</a></li>
+					<li><a href="event.html">EVENT</a></li>
+					<li><a href="service_center.html">SERVICE CENTER</a></li>
+				</ul>
+			<p id="eng_page">
+				<a href="#">ENG</a>
+			</p>
+			</nav>
+		</div>
+			<!--헤더 태블릿.모바일일때-->
+		<div id="header_mob">
+			<div class="mob_h1menu">
+				<h1><a href="index.html">Logo</a></h1>
+				<div class="mob_menu">menu bar</div>
+			</div>
+		</div>
+	
+
+			<!-- 컨텐츠부분 -->
+		<div id="content_wrap">
+			<div id="content_title">
+				<span>store</span>
+				<div id="filters" class="button_group">
+					<button type ="button" class="button is_checked" data-filter="*">전체</button>
+					<button type ="button" class="button" data-filter=".online">온라인</button>
+					<button type ="button" class="button" data-filter=".offline">오프라인</button>
+				</div>
+			</div>
+			<div id="content_body" class="grid">
+				<div class="element_item online" data-category="online">
+					<div class="content_content_top">
+						<div class="content_content_top_inbox">
+							<img src="img/store/store_01.png" alt=""/>
+						</div>
+					</div>
+					<div class="content_content_bottom">
+						<div class="content_content_bottom_inbox">
+						스토어팜<br/>						
+						<span>온라인샵</span>
+						<a href=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="element_item online offline" data-category="online offline">
+					<div class="content_content_top">
+						<div class="content_content_top_inbox">
+							<img src="img/store/store_02.png" alt=""/>
+						</div>
+					</div>
+					<div class="content_content_bottom">
+						<div class="content_content_bottom_inbox">
+						텐바이텐<br/>
+						<span>온라인샵/오프라인샵</span>
+						<a href=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="element_item online offline" data-category="online offline">
+					<div class="content_content_top">
+						<div class="content_content_top_inbox">
+							<img src="img/store/store_03.png" alt=""/>
+						</div>
+					</div>
+					<div class="content_content_bottom">
+						<div class="content_content_bottom_inbox">
+						1300K<br/>
+						<span>온라인샵/오프라인샵</span>
+						<a href=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="element_item online offline" data-category="online offline">
+					<div class="content_content_top">
+						<div class="content_content_top_inbox">
+							<img src="img/store/store_04.png" alt=""/>
+						</div>
+					</div>
+					<div class="content_content_bottom">
+						<div class="content_content_bottom_inbox">
+						반디앤루니스<br/>
+						<span>온라인샵/오프라인샵</span>
+						<a href=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="element_item online offline" data-category="online offline">
+					<div class="content_content_top">
+						<div class="content_content_top_inbox">
+							<img src="img/store/store_05.png" alt=""/>
+						</div>
+					</div>
+					<div class="content_content_bottom">
+						<div class="content_content_bottom_inbox">
+						펀샵<br/>
+						<span>온라인샵/오프라인샵</span>
+						<a href=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="element_item online offline" data-category="online offline">
+					<div class="content_content_top">
+						<div class="content_content_top_inbox">
+							<img src="img/store/store_06.png" alt=""/>
+						</div>
+					</div>
+					<div class="content_content_bottom">
+						<div class="content_content_bottom_inbox">
+						핫트랙스<br/>
+						<span>온라인샵/오프라인샵</span>
+						<a href=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="element_item offline" data-category="offline">
+					<div class="content_content_top">
+						<div class="content_content_top_inbox">
+							<img src="img/store/store_07.png" alt=""/>
+						</div>
+					</div>
+					<div class="content_content_bottom">
+						<div class="content_content_bottom_inbox">
+						에이랜드<br/>
+						<span>오프라인샵</span>
+				
+						</div>
+					</div>
+				</div>
+				<div class="element_item offline" data-category="offline">
+					<div class="content_content_top">
+						<div class="content_content_top_inbox">
+							<img src="img/store/store_08.png" alt=""/>
+						</div>
+					</div>
+					<div class="content_content_bottom">
+						<div class="content_content_bottom_inbox">
+						쎈토이<br/>
+						<span>오프라인샵</span>
+					
+						</div>
+					</div>
+				</div>
+				<div class="element_item offline" data-category="offline">
+					<div class="content_content_top">
+						<div class="content_content_top_inbox">
+							<img src="img/store/store_09.png" alt=""/>
+						</div>
+					</div>
+					<div class="content_content_bottom">
+						<div class="content_content_bottom_inbox">
+						가챠샵<br/>
+						<span>오프라인샵</span>
+					
+						</div>
+					</div>
+				</div>
+				<div class="element_item offline" data-category="offline">
+					<div class="content_content_top">
+						<div class="content_content_top_inbox">
+							<img src="img/store/store_10.png" alt=""/>
+						</div>
+					</div>
+					<div class="content_content_bottom">
+						<div class="content_content_bottom_inbox">
+						네모네<br/>
+						<span>오프라인샵</span>
+				
+						</div>
+					</div>
+				</div>
+				<div class="element_item offline" data-category="offline">
+					<div class="content_content_top">
+						<div class="content_content_top_inbox">
+							<img src="img/store/store_11.png" alt=""/>
+						</div>
+					</div>
+					<div class="content_content_bottom">
+						<div class="content_content_bottom_inbox">
+						서교동 모형다방<br/>
+						<span>오프라인샵</span>
+					
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div id="footer">
+			<div>
+					Copyright &copy; 2017. THIRD STAGE.
+			</div>
+			
+		</div>
+
+		
+		<div id="menu_wrap">
+			<div id="menu">
+				<div class="menu_innerbox">	
+					<div class="menu_lang">
+						<p><a href="">KOR</a></p>
+						<p><a href="">ENG</a></p>
+					</div>
+					<ul>
+						<li><a href="product.html">product</a></li>
+						<li><a href="store.html">store</a></li>
+						<li><a href="news.html">news</a></li>
+						<li><a href="event.html">event</a></li>
+						<li><a href="blog.html">blog</a></li>
+						<li><a href="service_center.html">service center</a></li>
+						<li><a href="">company info <img src="img/c_arrow_btn.svg" alt="" /></a></li>
+						<li>
+							<a href=""><img src="img/w_facebook.svg" alt="" /></a>
+							<a href=""><img src="img/w_instagram.svg" alt="" /></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		
+
+	</div>
+
+		<!--사이드바 오른쪽-->
+	<div id="side_bar_right_wrap">
+		<div id="side_bar_right">
+			<div id="arrow_top">
+				<a href="#" class="main_company">COMPANY</a>
+			</div>
+			<div id="sns_bottom">
+				<a href="#" class="main_faceb">Facebook</a>
+				<a href="#" class="main_insta">Instagram</a>
+			</div>
+		</div>
+	</div>
+  
+ </body>
+</html>
+
